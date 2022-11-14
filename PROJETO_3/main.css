@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: purple;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: purple;
+}
+
+#cabecalho .nav .nav-link {
+    color: #fff;
+}
+
+.section-title {
+    font-family: 'Bangers', cursive;
+}
+
+.section-title span {
+    color: purple;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+#cabecalho .navbar-brand:hover,
+.navbar-brand {
+    color: #fff;
+}
+
+.text-colored {
+    color: purple;
+}
+
+#sobre-a-loja,
+#produtos {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+#produtos .nav .nav-link:hover {
+    color: purple;
+}
+
+#produtos .nav .nav-link.active {
+    color: #fff;
+    background-color: purple;
+    font-size: 18px;
+}
+
+#fale-conosco textarea {
+    resize: none;
+    height: 140px;
+}
+
+#fale-conosco button {
+    color: #fff;
+    background-color: purple;
+}
+
+.social-links li {
+    display: inline;
+    list-style: none;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        width: 90%;
+    }
+
+    #cabecalho .nav {
+        margin-top: 16px;
+    }
+
+    #produtos .nav {
+        margin-bottom: 32px;
+    }
+
+    #fale-conosco button {
+        margin-bottom: 24px;
+    }
+
+}
+

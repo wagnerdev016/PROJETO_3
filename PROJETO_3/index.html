@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO_3 - Loja de Futebol</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-2">Ebac Sports</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#esportes" class="nav-link">
+                            <i class="bi bi-gem me-1"></i>
+                            Esportes
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossos Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div id="carousel" class="carousel carousel-slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="./imagens/imagem1.jpeg" alt="imagem-1"/>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="./imagens/imagem2.jpg" alt="imagem-2"/>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="./imagens/imagem3.jpg" alt="imagem-3"/>
+                    </div>
+                </div>
+                <button type="button" data-bs-slide="prev" data-bs-target="#carousel" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" data-bs-slide="next" data-bs-target="#carousel" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens/loja.webp" alt="fachada da loja" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title">
+                                Sobre a <span>Ebac Sports</span>
+                            </h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, consectetur, officiis explicabo aperiam quas ullam architecto illo ipsam vitae recusandae minima quod iste? Expedita maiores dolorem vitae iusto totam voluptates.
+                            </p>
+                            <h2 class="section-title">
+                                Sobre <span>nosso espaço</span>
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error porro sunt, quia natus expedita, assumenda corporis amet necessitatibus deserunt corrupti quas totam placeat. Eos, consequuntur omnis. Temporibus sit esse fugiat!
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="esportes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-4">
+                        para <span>todos os esportes</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="./imagens/futebol - imagem.webp" alt="imagem jogador de futebol">
+                        <h3 class="section-title fs-4 mt-2"> 
+                            <i class="bi bi-fire text-colored"></i>
+                            <span>Futebol</span>
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam natus molestias accusamus? In, ipsum nesciunt dolore culpa quasi veritatis et nostrum dignissimos ducimus inventore dolor at eum ea totam veniam?
+                        </p>
+                    </div>  
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="./imagens/basquete_cesta_bola.jpg" alt="imagem cesta de basquete">
+                        <h3 class="section-title fs-4 mt-2"> 
+                            <i class="bi bi-check2-circle text-colored"></i>
+                            <span>Basquete</span>
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam natus molestias accusamus? In, ipsum nesciunt dolore culpa quasi veritatis et nostrum dignissimos ducimus inventore dolor at eum ea totam veniam?
+                        </p>
+                    </div>  
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="./imagens/bicicleta.jpg" alt="imagem jogador de futebol">
+                        <h3 class="section-title fs-4 mt-2"> 
+                            <i class="bi bi-bicycle text-colored"></i>
+                            <span>Ciclismo</span>
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam natus molestias accusamus? In, ipsum nesciunt dolore culpa quasi veritatis et nostrum dignissimos ducimus inventore dolor at eum ea totam veniam?
+                        </p>
+                    </div>  
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-4">Nossos<span> Produtos</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#futebol" class="fw-bold text-start nav-link active text-colored">Futebol</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#basquete" class="fw-bold text-start nav-link text-colored">Basquete</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tenis" class="fw-bold text-start nav-link text-colored">Tênis</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ciclismo" class="fw-bold text-start nav-link text-colored">Ciclismo</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#f-americano" class="fw-bold text-start nav-link text-colored">Futebol Americano</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="futebol">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/camisa-arsenal.webp" alt="camiseta do arsenal">
+                                        <h5 class="text-colored fw-bold mt-2">Camiseta Arsenal</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/camisa-arsenal.webp" alt="camiseta do arsenal">
+                                        <h5 class="text-colored fw-bold mt-2">Camiseta Arsenal</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/camisa-arsenal.webp" alt="camiseta do arsenal">
+                                        <h5 class="text-colored fw-bold mt-2">Camiseta Arsenal</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/camisa-arsenal.webp" alt="camiseta do arsenal">
+                                        <h5 class="text-colored fw-bold mt-2">Camiseta Arsenal</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/camisa-arsenal.webp" alt="camiseta do arsenal">
+                                        <h5 class="text-colored fw-bold mt-2">Camiseta Arsenal</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/camisa-arsenal.webp" alt="camiseta do arsenal">
+                                        <h5 class="text-colored fw-bold mt-2">Camiseta Arsenal</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="basquete">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/basquete-produtos.jpeg" alt="imagem camisa de basquete">
+                                        <h5 class="text-colored fw-bold mt-2">Camisa de basquete</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/basquete-produtos.jpeg" alt="imagem camisa de basquete">
+                                        <h5 class="text-colored fw-bold mt-2">Camisa de basquete</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/basquete-produtos.jpeg" alt="imagem camisa de basquete">
+                                        <h5 class="text-colored fw-bold mt-2">Camisa de basquete</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/basquete-produtos.jpeg" alt="imagem camisa de basquete">
+                                        <h5 class="text-colored fw-bold mt-2">Camisa de basquete</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/basquete-produtos.jpeg" alt="imagem camisa de basquete">
+                                        <h5 class="text-colored fw-bold mt-2">Camisa de basquete</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tenis">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/tenis-produtos.jpg" alt="imagem raquete de tenis">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/tenis-produtos.jpg" alt="imagem raquete de tenis">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/tenis-produtos.jpg" alt="imagem raquete de tenis">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/tenis-produtos.jpg" alt="imagem raquete de tenis">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/tenis-produtos.jpg" alt="imagem raquete de tenis">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/tenis-produtos.jpg" alt="imagem raquete de tenis">
+                                        <h5 class="text-colored fw-bold mt-2">Tênis</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ciclismo">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/ciclismo_produtos.webp" alt="imagem de equipamentos de ciclismo">
+                                        <h5 class="text-colored fw-bold mt-2">Ciclismo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/ciclismo_produtos.webp" alt="imagem de equipamentos de ciclismo">
+                                        <h5 class="text-colored fw-bold mt-2">Ciclismo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/ciclismo_produtos.webp" alt="imagem de equipamentos de ciclismo">
+                                        <h5 class="text-colored fw-bold mt-2">Ciclismo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/ciclismo_produtos.webp" alt="imagem de equipamentos de ciclismo">
+                                        <h5 class="text-colored fw-bold mt-2">Ciclismo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/ciclismo_produtos.webp" alt="imagem de equipamentos de ciclismo">
+                                        <h5 class="text-colored fw-bold mt-2">Ciclismo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="f-americano">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/f-americano-produtos.jpg" alt="futebol americano">
+                                        <h5 class="text-colored fw-bold mt-2">Futebol Americano</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/f-americano-produtos.jpg" alt="futebol americano">
+                                        <h5 class="text-colored fw-bold mt-2">Futebol Americano</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/f-americano-produtos.jpg" alt="futebol americano">
+                                        <h5 class="text-colored fw-bold mt-2">Futebol Americano</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/f-americano-produtos.jpg" alt="futebol americano">
+                                        <h5 class="text-colored fw-bold mt-2">Futebol Americano</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div><div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/f-americano-produtos.jpg" alt="futebol americano">
+                                        <h5 class="text-colored fw-bold mt-2">Futebol Americano</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span>Conosco</span></h2>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <form>
+                                <div>
+                                    <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                                    <input type="text" id="nome" class="form-control mb-2" name="nome" required>
+                                </div>
+                                <div>
+                                    <label for="email" class="form-label fw-bold text-colored">Seu email:</label>
+                                    <input type="email" id="email" class="form-control mb-2" name="email" required>
+                                </div>
+                                <div>
+                                    <label for="telefone" class="form-label fw-bold text-colored">Seu telefone(opcional):</label>
+                                    <input type="tel" id="telefone" class="form-control mb-2" name="tel">
+                                </div>
+                                <div>
+                                    <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem:</label>
+                                    <textarea id="mensagem" class="form-control mb-2" name="mensagem"></textarea>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn fw-normal">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4">
+                                    <span>
+                                        <i class="bi bi-hand-thumbs-up-fill"></i>
+                                        Redes Sociais
+                                    </span>
+                                </h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored ms-1 me-1"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <h3 class="section-title fs-4">
+                                    <span>
+                                        <i class="bi bi-cursor-fill text-colored"></i>
+                                        Endereço
+                                    </span>
+                                </h3>
+                                <p class="text-colored">
+                                    Rua teste, 145, Bairro Bootstrap - São Paulo - SP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        
+    
+    
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
